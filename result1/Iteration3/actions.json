@@ -1,0 +1,116 @@
+[
+    {
+        "actionName": "Cycle",
+        "steps": [
+            {
+                "stepId": "STEP37",
+                "stepName": "Url: webtours",
+                "infFile": "t1.inf",
+                "time": 1617564606043
+            },
+            {
+                "stepId": "STEP38",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t2.inf",
+                "time": 1617564606249
+            },
+            {
+                "stepId": "STEP39",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t3.inf",
+                "time": 1617564606465
+            },
+            {
+                "stepId": "STEP40",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t4.inf",
+                "time": 1617564606641
+            },
+            {
+                "stepId": "STEP41",
+                "stepName": "Url: webtours",
+                "infFile": "t5.inf",
+                "time": 1617564606915
+            },
+            {
+                "stepId": "STEP42",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t6.inf",
+                "time": 1617564607148
+            },
+            {
+                "stepId": "STEP43",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t7.inf",
+                "time": 1617564607325
+            },
+            {
+                "stepId": "STEP44",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t8.inf",
+                "time": 1617564607496
+            },
+            {
+                "stepId": "STEP45",
+                "stepName": "Url: webtours",
+                "infFile": "t9.inf",
+                "time": 1617564607733
+            },
+            {
+                "stepId": "STEP46",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t10.inf",
+                "time": 1617564607851
+            },
+            {
+                "stepId": "STEP47",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t11.inf",
+                "time": 1617564607992
+            },
+            {
+                "stepId": "STEP48",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t12.inf",
+                "time": 1617564608170
+            },
+            {
+                "stepId": "STEP49",
+                "stepName": "Url: webtours",
+                "infFile": "t13.inf",
+                "time": 1617564608499
+            },
+            {
+                "stepId": "STEP50",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t14.inf",
+                "time": 1617564608650
+            },
+            {
+                "stepId": "STEP51",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t15.inf",
+                "time": 1617564608771
+            },
+            {
+                "stepId": "STEP52",
+                "stepName": "Submit Data: itinerary.pl",
+                "infFile": "t16.inf",
+                "time": 1617564608836
+            },
+            {
+                "stepId": "STEP53",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t17.inf",
+                "time": 1617564608980
+            },
+            {
+                "stepId": "STEP54",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t18.inf",
+                "time": 1617564609081
+            }
+        ],
+        "transactions": []
+    }
+]
