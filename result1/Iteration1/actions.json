@@ -6,109 +6,109 @@
                 "stepId": "STEP1",
                 "stepName": "Url: webtours",
                 "infFile": "t1.inf",
-                "time": 1617581389166
+                "time": 1617627207209
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Submit Data: login.pl",
                 "infFile": "t2.inf",
-                "time": 1617581389303
+                "time": 1617627207358
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Url: Itinerary Button",
                 "infFile": "t3.inf",
-                "time": 1617581389483
+                "time": 1617627207604
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Url: SignOff Button",
                 "infFile": "t4.inf",
-                "time": 1617581389628
+                "time": 1617627207759
             },
             {
                 "stepId": "STEP5",
                 "stepName": "Url: webtours",
                 "infFile": "t5.inf",
-                "time": 1617581389857
+                "time": 1617627207975
             },
             {
                 "stepId": "STEP6",
                 "stepName": "Submit Data: login.pl",
                 "infFile": "t6.inf",
-                "time": 1617581389995
+                "time": 1617627208081
             },
             {
                 "stepId": "STEP7",
                 "stepName": "Url: Itinerary Button",
                 "infFile": "t7.inf",
-                "time": 1617581390151
+                "time": 1617627208233
             },
             {
                 "stepId": "STEP8",
                 "stepName": "Url: SignOff Button",
                 "infFile": "t8.inf",
-                "time": 1617581390307
+                "time": 1617627208382
             },
             {
                 "stepId": "STEP9",
                 "stepName": "Url: webtours",
                 "infFile": "t9.inf",
-                "time": 1617581390555
+                "time": 1617627208618
             },
             {
                 "stepId": "STEP10",
                 "stepName": "Submit Data: login.pl",
                 "infFile": "t10.inf",
-                "time": 1617581390662
+                "time": 1617627208722
             },
             {
                 "stepId": "STEP11",
                 "stepName": "Url: Itinerary Button",
                 "infFile": "t11.inf",
-                "time": 1617581390785
+                "time": 1617627208897
             },
             {
                 "stepId": "STEP12",
                 "stepName": "Url: SignOff Button",
                 "infFile": "t12.inf",
-                "time": 1617581390950
+                "time": 1617627209087
             },
             {
                 "stepId": "STEP13",
                 "stepName": "Url: webtours",
                 "infFile": "t13.inf",
-                "time": 1617581391267
+                "time": 1617627209404
             },
             {
                 "stepId": "STEP14",
                 "stepName": "Submit Data: login.pl",
                 "infFile": "t14.inf",
-                "time": 1617581391411
+                "time": 1617627209578
             },
             {
                 "stepId": "STEP15",
                 "stepName": "Url: Itinerary Button",
                 "infFile": "t15.inf",
-                "time": 1617581391540
+                "time": 1617627209707
             },
             {
                 "stepId": "STEP16",
                 "stepName": "Submit Data: itinerary.pl",
                 "infFile": "t16.inf",
-                "time": 1617581391597
+                "time": 1617627209767
             },
             {
                 "stepId": "STEP17",
                 "stepName": "Url: Itinerary Button",
                 "infFile": "t17.inf",
-                "time": 1617581391755
+                "time": 1617627209928
             },
             {
                 "stepId": "STEP18",
                 "stepName": "Url: SignOff Button",
                 "infFile": "t18.inf",
-                "time": 1617581391852
+                "time": 1617627210020
             }
         ],
         "transactions": []

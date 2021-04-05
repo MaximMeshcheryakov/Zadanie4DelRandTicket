@@ -13,6 +13,7 @@
 int i = 1;
 int j = 1;
 int maxk = 0;
-
+int randomnumber=0;
+int numbertickets=0;
 int maxticket[3];
 #endif // _GLOBALS_H
