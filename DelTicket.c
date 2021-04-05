@@ -91,7 +91,7 @@ DelTicket()
 		"Name=.cgifields", "Value=7", ENDITEM,
 		"Name=.cgifields", "Value=8", ENDITEM,
 		"Name=.cgifields", "Value=9", ENDITEM,
-		"Name=.cgifields", "Value=1", ENDITEM,
+		"Name=.cgifields", "Value=10", ENDITEM,
 		"Name=removeFlights.x", "Value=69", ENDITEM,
 		"Name=removeFlights.y", "Value=8", ENDITEM,
 		LAST);
@@ -120,6 +120,7 @@ DelTicket()
 		"Mode=HTML", 
 		LAST);
 		
+	lr_output_message("Random ticket DEL= %d",atoi(lr_eval_string("{randnum}")));	
 	lr_output_message("Number of tickets first class= %d",atoi(lr_eval_string("{First_Count2}")));
 	lr_output_message("Total number of tickets after DEL= %d",atoi(lr_eval_string("{NumberOfTickets2}")));
 	
