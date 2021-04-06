@@ -13,7 +13,10 @@
 int i = 1;
 int j = 1;
 int maxk = 0;
-int randomnumber=0;
-int numbertickets=0;
+int randomize=0;
+int number=0;
+int randomDelete=0;
 int maxticket[3];
+char* strg[];
+char stst[];
 #endif // _GLOBALS_H

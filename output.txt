@@ -1,61 +1,55 @@
 Cycle.c(11): user: jojo
-Action.c(27): Number of tickets first class= 2
-Action.c(28): Total number of tickets= 4
+Action.c(28): Number of tickets first class= 1
+Action.c(29): Total number of tickets= 2
 Cycle.c(12): user: Batman
-Action.c(27): Number of tickets first class= 1
-Action.c(28): Total number of tickets= 10
+Action.c(28): Number of tickets first class= 1
+Action.c(29): Total number of tickets= 4
 Cycle.c(13): user: Jack
-Action.c(27): Number of tickets first class= 2
-Action.c(28): Total number of tickets= 5
-Cycle.c(25): maxticket 1=2
-Cycle.c(26): maxticket 2=1
-Cycle.c(27): maxticket 3=2
-Cycle.c(34): username=jojo
-Cycle.c(51): 2
-DelTicket.c(39): username DELETE = jojo
-DelTicket.c(73): Rand Number= 1
-DelTicket.c(74): Total number of tickets= 4
-DelTicket.c(181): Number of tickets first class= 2
-DelTicket.c(182): Total number of tickets after DEL= 3
-DelTicket.c(196): ______________________________________
-Cycle.c(11): user: jojo
-Action.c(27): Number of tickets first class= 2
-Action.c(28): Total number of tickets= 3
-Cycle.c(12): user: Batman
-Action.c(27): Number of tickets first class= 1
-Action.c(28): Total number of tickets= 10
-Cycle.c(13): user: Jack
-Action.c(27): Number of tickets first class= 2
-Action.c(28): Total number of tickets= 5
-Cycle.c(25): maxticket 1=2
-Cycle.c(26): maxticket 2=1
-Cycle.c(27): maxticket 3=2
-Cycle.c(34): username=jojo
-Cycle.c(51): 2
-DelTicket.c(39): username DELETE = jojo
-DelTicket.c(73): Rand Number= 1
-DelTicket.c(74): Total number of tickets= 3
-DelTicket.c(181): Number of tickets first class= 1
-DelTicket.c(182): Total number of tickets after DEL= 2
-DelTicket.c(196): ______________________________________
-Cycle.c(11): user: jojo
-Action.c(27): Number of tickets first class= 1
-Action.c(28): Total number of tickets= 2
-Cycle.c(12): user: Batman
-Action.c(27): Number of tickets first class= 1
-Action.c(28): Total number of tickets= 10
-Cycle.c(13): user: Jack
-Action.c(27): Number of tickets first class= 2
-Action.c(28): Total number of tickets= 5
-Cycle.c(25): maxticket 1=1
-Cycle.c(26): maxticket 2=1
-Cycle.c(27): maxticket 3=2
+Action.c(28): Number of tickets first class= 2
+Action.c(29): Total number of tickets= 5
 Cycle.c(46): username=Jack
-Cycle.c(51): 2
+Cycle.c(51): Max count First ticket = 2
 DelTicket.c(39): username DELETE = Jack
-DelTicket.c(73): Rand Number= 2
-DelTicket.c(74): Total number of tickets= 5
-DelTicket.c(181): Number of tickets first class= 2
-DelTicket.c(182): Total number of tickets after DEL= 4
-DelTicket.c(196): ______________________________________
+DelTicket.c(72): Total number of tickets= 5
+DelTicket.c(78): RandomDelete= 5
+DelTicket.c(79): randomDel= 5
+DelTicket.c(146): Number of tickets first class= 2
+DelTicket.c(147): Total number of tickets after DEL= 4
+DelTicket.c(161): ______________________________________
+Cycle.c(11): user: jojo
+Action.c(28): Number of tickets first class= 1
+Action.c(29): Total number of tickets= 2
+Cycle.c(12): user: Batman
+Action.c(28): Number of tickets first class= 1
+Action.c(29): Total number of tickets= 4
+Cycle.c(13): user: Jack
+Action.c(28): Number of tickets first class= 2
+Action.c(29): Total number of tickets= 4
+Cycle.c(46): username=Jack
+Cycle.c(51): Max count First ticket = 2
+DelTicket.c(39): username DELETE = Jack
+DelTicket.c(72): Total number of tickets= 4
+DelTicket.c(78): RandomDelete= 1
+DelTicket.c(79): randomDel= 1
+DelTicket.c(146): Number of tickets first class= 2
+DelTicket.c(147): Total number of tickets after DEL= 3
+DelTicket.c(161): ______________________________________
+Cycle.c(11): user: jojo
+Action.c(28): Number of tickets first class= 1
+Action.c(29): Total number of tickets= 2
+Cycle.c(12): user: Batman
+Action.c(28): Number of tickets first class= 1
+Action.c(29): Total number of tickets= 4
+Cycle.c(13): user: Jack
+Action.c(28): Number of tickets first class= 2
+Action.c(29): Total number of tickets= 3
+Cycle.c(46): username=Jack
+Cycle.c(51): Max count First ticket = 2
+DelTicket.c(39): username DELETE = Jack
+DelTicket.c(72): Total number of tickets= 3
+DelTicket.c(78): RandomDelete= 1
+DelTicket.c(79): randomDel= 1
+DelTicket.c(146): Number of tickets first class= 2
+DelTicket.c(147): Total number of tickets after DEL= 2
+DelTicket.c(161): ______________________________________
 Vuser Terminated.

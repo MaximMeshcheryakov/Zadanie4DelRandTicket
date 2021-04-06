@@ -22,9 +22,9 @@ Cycle()
 	}
 	
 	
-	lr_output_message("maxticket 1=%d",maxticket[1]);
-	lr_output_message("maxticket 2=%d",maxticket[2]);
-	lr_output_message("maxticket 3=%d",maxticket[3]);
+	//lr_output_message("maxticket 1=%d",maxticket[1]);
+	//lr_output_message("maxticket 2=%d",maxticket[2]);
+	//lr_output_message("maxticket 3=%d",maxticket[3]);
 
 
 	if((maxticket[1]>=maxticket[2]) && (maxticket[1]>=maxticket[3])){ // 1 > 2
@@ -48,7 +48,7 @@ Cycle()
 			}
 		}
 	
-	lr_output_message("%d",maxk);
+	lr_output_message("Max count First ticket = %d",maxk);
 	DelTicket();
 	
 

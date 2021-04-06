@@ -65,16 +65,22 @@ DelTicket()
 		"Mode=HTML", 
 		LAST);
 	
+	//randomize=atoi(lr_eval_string("{randnum}"));
+	
+    number=atoi(lr_eval_string("{NumberOfTickets3}"));
+    //lr_output_message("Randomize= %d",randomize);
+    lr_output_message("Total number of tickets= %d",number);  
+
+    srand(time(NULL));
+    randomDelete = rand() % number + 1;
+   	itoa(randomDelete,stst,10);
+  	lr_save_string(stst,"randomDel");
+    lr_output_message("RandomDelete= %d",randomDelete);
+    lr_output_message("randomDel= %d",atoi(lr_eval_string("{randomDel}")));
 	
 	
-	randomnumber=atoi(lr_eval_string("{randnum}"));
-	
-    numbertickets=atoi(lr_eval_string("{NumberOfTickets3}"));
-    lr_output_message("Rand Number= %d",randomnumber);
-    lr_output_message("Total number of tickets= %d",numbertickets);
-	
-	if(randomnumber>numbertickets){
-		
+  
+  
 	/* Del Ticket */
 	
 	web_submit_data("itinerary.pl", 
@@ -96,47 +102,7 @@ DelTicket()
 		"Name=flightID", "Value={FlightID_8}", ENDITEM,
 		"Name=flightID", "Value={FlightID_9}", ENDITEM,
 		"Name=flightID", "Value={FlightID_10}", ENDITEM,	
-		"Name=1", "Value=on", ENDITEM,
-		"Name=.cgifields", "Value=1", ENDITEM,
-		"Name=.cgifields", "Value=2", ENDITEM,
-		"Name=.cgifields", "Value=3", ENDITEM,
-		"Name=.cgifields", "Value=4", ENDITEM,
-		"Name=.cgifields", "Value=5", ENDITEM,
-		"Name=.cgifields", "Value=6", ENDITEM,
-		"Name=.cgifields", "Value=7", ENDITEM,
-		"Name=.cgifields", "Value=8", ENDITEM,
-		"Name=.cgifields", "Value=9", ENDITEM,
-		"Name=.cgifields", "Value=10", ENDITEM,
-		"Name=removeFlights.x", "Value=69", ENDITEM,
-		"Name=removeFlights.y", "Value=8", ENDITEM,
-			LAST);
-	
-	
-    } else {  	
-	
-	
-	/* Del Ticket */
-	
-	web_submit_data("itinerary.pl", 
-		"Action={Host}/cgi-bin/itinerary.pl", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=text/html", 
-		"Referer={Host}/cgi-bin/itinerary.pl", 
-		"Snapshot=t4.inf", 
-		"Mode=HTML", 
-		ITEMDATA, 
-		"Name=flightID", "Value={FlightID_1}", ENDITEM,
-		"Name=flightID", "Value={FlightID_2}", ENDITEM,
-		"Name=flightID", "Value={FlightID_3}", ENDITEM,
-		"Name=flightID", "Value={FlightID_4}", ENDITEM,
-		"Name=flightID", "Value={FlightID_5}", ENDITEM,
-		"Name=flightID", "Value={FlightID_6}", ENDITEM,
-		"Name=flightID", "Value={FlightID_7}", ENDITEM,
-		"Name=flightID", "Value={FlightID_8}", ENDITEM,
-		"Name=flightID", "Value={FlightID_9}", ENDITEM,
-		"Name=flightID", "Value={FlightID_10}", ENDITEM,	
-		"Name={randnum}", "Value=on", ENDITEM,
+		"Name={randomDel}", "Value=on", ENDITEM,
 		"Name=.cgifields", "Value=1", ENDITEM,
 		"Name=.cgifields", "Value=2", ENDITEM,
 		"Name=.cgifields", "Value=3", ENDITEM,
@@ -151,7 +117,6 @@ DelTicket()
 		"Name=removeFlights.y", "Value=8", ENDITEM,
 			LAST);
     	
-    }
 	
 	
 	web_reg_find("Text=A First class ticket for",
